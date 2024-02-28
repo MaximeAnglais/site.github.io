@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style.css">
+    <title>Lofti</title>
+</head>
+<body>
+
+    <div class="header">
+        <header class="header-background">
+
+            <div class="logo">
+                <img src="asset/img/logo_anglais.png" alt="">
+            </div>
+
+            <h1>Welcome to Lofti - Your Real Estate Partner in Chicago since 1995</h1>
+            <h3 class="subtitle">Unlocking Dreams, Building Homes: Your Key to Real Estate Excellence!</h3>  
+
+            <div class="menu">
+               
+                <nav class="menu-header">
+                    <ul class="elements-menu">
+                        <li class="details-link"><a id="index" href="index.html">Home</a></li>
+                        <li class="details-link"><a id="entreprise" href="presentation.html">Presentation</a></li>
+                        <li class="details-link"><a id="stage" href="rentals.html">Rentals</a>
+                        <ul class="sous elements-menu">
+                            <li class="details-link"><a href="rentals_boston.html">Rentals in Boston</a></li>
+                            <li class="details-link"><a href="rentals_ny.html">Rentals in New York</a></li>
+                            <li class="details-link"><a href="rentals_la.html">Rentals in Los Angeles</a></li>
+                        </ul></li>
+                        <li class="details-link"><a id="stage" href="sales.html">Sales</a>
+                            <ul class="sous elements-menu">
+                                <li class="details-link"><a href="houses.html">Houses</a></li>
+                                <li class="details-link"><a href="flats.html">Flats</a></li>
+                            </ul></li>
+                        <li class="details-link"><a id="stage" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+                 
+        </header>
+    </div>
+
+    <div class="background-title">
+        <h3 class="title_page" id="presentation">Contact us</h2>
+    </div>
+
+    <div class="container">
+        <form action="traitement_formulaire.php" method="post">
+            <label for="nom">Name :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Username :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="telephone">Telephone number :</label>
+            <input type="tel" id="telephone" name="telephone" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.5813025207467!2d-87.6490905!3d41.880354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cdc987f8d71%3A0x2bc0e791b4dcb5e7!2sBest%20Chicago%20Properties!5e0!3m2!1sfr!2sfr!4v1709131730620!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="frame"></iframe>
+
+
+    
+</body>
+</html>
